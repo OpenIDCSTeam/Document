@@ -4,6 +4,9 @@ import type { ThemePressConfig } from 'valaxy-theme-press'
 export default defineValaxyConfig<ThemePressConfig>({
   theme: 'press',
   
+  // GitHub Pages 配置
+  base: process.env.NODE_ENV === 'production' ? '/Document/' : '/',
+  
   siteConfig: {
     title: 'OpenIDCS',
     subtitle: '开源IDC虚拟化统一管理平台',
