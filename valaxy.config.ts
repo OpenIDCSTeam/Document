@@ -1,7 +1,7 @@
 import { defineValaxyConfig } from 'valaxy'
-import type { ThemePressConfig } from 'valaxy-theme-press'
 
-export default defineValaxyConfig<ThemePressConfig>({
+export default defineValaxyConfig({
+  // 指定主题
   theme: 'press',
   
   // GitHub Pages 配置
@@ -9,7 +9,7 @@ export default defineValaxyConfig<ThemePressConfig>({
   
   siteConfig: {
     title: 'OpenIDCS',
-    subtitle: '开源IDC虚拟化统一管理平台',
+    subtitle: '开源IDC虚拟化统一管理平台文档站',
     description: '使用统一Web界面和RESTful API来管理多虚拟化平台的虚拟机基础设施',
     author: {
       name: 'OpenIDCS Team',

@@ -9,8 +9,10 @@
     "preview": "valaxy preview"
   },
   "dependencies": {
-    "valaxy": "^0.18.0",
-    "valaxy-theme-press": "^0.3.0"
+    "fuse.js": "^7.1.0",
+    "valaxy": "^0.26.12",
+    "valaxy-theme-press": "^0.26.12",
+    "vitepress": "^1.6.4"
   },
   "devDependencies": {
     "@iconify-json/carbon": "^1.1.0",
