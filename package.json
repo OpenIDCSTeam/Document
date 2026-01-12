@@ -1,0 +1,19 @@
+{
+  "name": "openidc-docs",
+  "version": "1.0.0",
+  "description": "OpenIDCS 开源IDC虚拟化统一管理平台文档站",
+  "type": "module",
+  "scripts": {
+    "dev": "valaxy",
+    "build": "valaxy build",
+    "preview": "valaxy preview"
+  },
+  "dependencies": {
+    "valaxy": "^0.18.0",
+    "valaxy-theme-press": "^0.3.0"
+  },
+  "devDependencies": {
+    "@iconify-json/carbon": "^1.1.0",
+    "@iconify-json/ri": "^1.1.0"
+  }
+}
